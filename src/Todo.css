@@ -1,0 +1,17 @@
+.listItem{
+    display: flex;
+}
+.btnList{
+margin-left: 10px;
+cursor: pointer;
+}
+
+.btnList:hover{
+    color: red;
+}
+li{
+    cursor: pointer;
+}
+li::selection{
+    color: black;
+}
